@@ -14,7 +14,7 @@ fis.match('*.tpl', {
 });
 
 fis.match('/widget/**/*.{js,css}', {
-  isMod: true
+  isMod: true //require 函数
 });
 
 fis.match('/widget/**/*.js', {
